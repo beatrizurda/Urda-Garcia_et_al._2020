@@ -102,7 +102,7 @@ generating_networks.R
 network_overlap.R
 ```
 
-References
+###References
 Hidalgo,C.A. et al. (2009) A Dynamic Network Approach for the Study of Human
 Phenotypes. PLoS Comput. Biol.
 
