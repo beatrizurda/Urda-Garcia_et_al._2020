@@ -1,0 +1,48 @@
+# Commands to be RUN in the mare when wanting to run again the RNA-seq pipeline for all diseases
+
+########## AT THE DISEASE LEVEL #######################
+# CHOOSE BETWEEN A OR B AND CONTINUE
+
+# A) if you want to save the previous results
+myvar=$(date +"%Y%m%d_%H_%Mh")
+mv DL_RESULTS_GREIN/ oldrun_pipeline/DL_RESULTS_GREIN_$myvar
+
+# B) if you want to delete the previous results 
+rm -r DL_RESULTS_GREIN
+
+mkdir DL_RESULTS_GREIN
+
+cd DL_RESULTS_GREIN
+mkdir normalized_counts
+mkdir after_combat_counts
+mkdir after_qrdecomp_counts
+mkdir ranked_gene_lists
+
+echo -e "disease_name\tkept_genes\tn_samples\tNumber_DEGs\tNumber_sDEGs\tPercentage_aligned\tLibrary_size\tperplex1\toptimal_perplex\tperplex3" >  dl_general_info.txt
+
+touch is_finished.txt
+
+cd ..
+
+####### AT THE ICD9 CODE LEVEL #####################
+# CHOOSE BETWEEN A OR B AND CONTINUE
+
+# A) if you want to save the previous results
+myvar=$(date +"%Y%m%d_%H_%Mh")
+mv ICD9_RESULTS_GREIN/ oldrun_pipeline/ICD9_RESULTS_GREIN_$myvar
+
+# B) if you want to delete the previous results 
+rm -r ICD9_RESULTS_GREIN
+
+mkdir ICD9_RESULTS_GREIN
+
+cd ICD9_RESULTS_GREIN
+mkdir normalized_counts
+mkdir after_combat_counts
+mkdir after_qrdecomp_counts
+
+echo -e "disease_name\tkept_genes\tn_samples\tNumber_DEGs\tNumber_sDEGs\tPercentage_aligned\tLibrary_size\tperplex1\toptimal_perplex\tperplex3" >  dl_general_info.txt
+
+touch is_finished.txt
+
+cd ..

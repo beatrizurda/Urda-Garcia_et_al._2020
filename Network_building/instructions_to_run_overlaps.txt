@@ -1,0 +1,20 @@
+cd <Your path>/Analysis/
+
+### FOR GENE EXPRESSION
+
+# FOR THE POSITIVE INTERACTIONS
+Rscript network_overlap.R 'pairwise_union_spearman_distance_sDEGs_pos_network.txt' consistent B TRUE
+
+
+# FOR THE NEGATIVE INTERACTIONS
+Rscript network_overlap.R 'pairwise_union_spearman_distance_sDEGs_neg_network.txt' consistent B TRUE
+
+
+### FOR GENE VARIABILITY
+
+# FOR THE POSITIVE INTERACTIONS
+Rscript network_overlap.R 'pairwise_union_spearman_distance_sDVGs_pos_network.txt' consistent B TRUE
+
+
+# FOR THE NEGATIVE INTERACTIONS
+Rscript network_overlap.R 'pairwise_union_spearman_distance_sDVGs_neg_network.txt' consistent B TRUE
