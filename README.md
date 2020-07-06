@@ -104,7 +104,7 @@ generating_networks.R
 network_overlap.R
 ```
 ### Necessary folders to run the analysis
-First, create a folder called 'Analysis'. Download in it the code and directories in this GitHub repository. 
+Create a folder called 'Analysis' and download in it the code and directories in this GitHub repository. 
 
 ### References
 Hidalgo,C.A. et al. (2009) A Dynamic Network Approach for the Study of Human
