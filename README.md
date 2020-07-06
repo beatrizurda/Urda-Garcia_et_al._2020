@@ -6,10 +6,12 @@ The data is publicly available (Supplementary Table 1). The raw data can be down
 
 ## Steps and Code
 ### Analyzing disease similarities based on gene expression at the disease level
-1. Run the RNA-seq pipeline at the disease level
+1. Run the RNA-seq pipeline at the disease level 
 ```bash
 run_rnaseq_pipeline_for_disease.R
 ```
+Instructions in Analysis/RNA_SEQ_pipeline
+
 2. Explore functional enrichment and produce it's heatmap-based visualization
 ```bash
 molecular_insight_heatmap.R
