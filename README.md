@@ -102,5 +102,10 @@ generating_networks.R
 network_overlap.R
 ```
 
+References
+Hidalgo,C.A. et al. (2009) A Dynamic Network Approach for the Study of Human
+Phenotypes. PLoS Comput. Biol.
 
+Sánchez-Valle,J. et al. (2020) Interpreting molecular similarity between patients as
+a determinant of disease comorbidity relationships. Nat. Commun., 11.
 
