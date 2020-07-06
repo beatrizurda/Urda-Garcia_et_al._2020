@@ -2,7 +2,7 @@
 Code for the manuscript 'From comorbidities to gene expression fingerprints and back'
 
 ## Data
-Poner un [enlace](https://pip.pypa.io/en/stable/) a GEO y GREIN.
+The data is publicly available (Supplementary Table 1); the raw data can be downloaded from GEO [https://www.ncbi.nlm.nih.gov/geo/](https://www.ncbi.nlm.nih.gov/geo/) and the counts can be downloaded from the GREIN platform [http://www.ilincs.org/apps/grein/](http://www.ilincs.org/apps/grein/).
 
 ## Steps and Code
 ### Analyzing disease similarities based on gene expression at the disease level
